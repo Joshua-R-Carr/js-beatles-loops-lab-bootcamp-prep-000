@@ -7,9 +7,10 @@ function theBeatlesPlay(array1, array2){
     return sol;
 }
 
-johnLennonFacts(array){
+johnLennonFacts(facts){
     var sol = [];
-    while(var i < array.length){
+    var i = 0;
+    while( i < facts.length){
         var a = String(array[i]) + '!!!';
         sol.push(a);
     }
