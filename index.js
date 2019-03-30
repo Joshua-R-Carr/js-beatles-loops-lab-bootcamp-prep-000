@@ -7,7 +7,7 @@ function theBeatlesPlay(array1, array2){
     return sol;
 }
 
-johnLennonFacts(facts){
+function johnLennonFacts(facts){
     var sol = [];
     var i = 0;
     while( i < facts.length){
