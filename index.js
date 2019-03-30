@@ -7,11 +7,11 @@ function theBeatlesPlay(array1, array2){
     return sol;
 }
 
-function johnLennonFacts(facts){
+function johnLennonFacts(array){
     var sol = [];
     var i = 0;
-    while( i < facts.length){
-        var a = String(facts[i]) + '!!!';
+    while( i < array.length){
+        var a = String(array[i]) + '!!!';
         sol.push(a);
         i++;
     }
