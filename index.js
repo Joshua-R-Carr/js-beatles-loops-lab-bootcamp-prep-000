@@ -6,3 +6,12 @@ function theBeatlesPlay(array1, array2){
     }
     return sol;
 }
+
+johnLennonFacts(array){
+    var sol = [];
+    while(var i < array.length){
+        var a = String(array[i]) + '!!!';
+        sol.push(a);
+    }
+    return sol;
+}
