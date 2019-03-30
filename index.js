@@ -11,7 +11,7 @@ johnLennonFacts(facts){
     var sol = [];
     var i = 0;
     while( i < facts.length){
-        var a = String(array[i]) + '!!!';
+        var a = String(facts[i]) + '!!!';
         sol.push(a);
         i++;
     }
