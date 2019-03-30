@@ -13,6 +13,7 @@ johnLennonFacts(facts){
     while( i < facts.length){
         var a = String(array[i]) + '!!!';
         sol.push(a);
+        i++;
     }
     return sol;
 }
