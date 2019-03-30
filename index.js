@@ -1,6 +1,6 @@
 function theBeatlesPlay(array1, array2){
     var sol = [];
-    for(i = 0, len = array1.length; i < len; i++){
+    for(var i = 0, len = array1.length; i < len; i++){
         a = String(array1[i]) + " plays " + String(array2[i]);
         sol.push(a);
     }
